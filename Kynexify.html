@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZEESHAN ELECTRIC</title>
+  <style>
+  
+    
+    
+    
+    
+    
+  html{
+    scroll-behavior:smooth;
+  }
+    body {
+      height: 100vh;
+      background-color:#111111;
+      margin:0; /* Add margin: 0 to remove gaps */
+      font-family: 'poppins', san-serif;
+    }
+    .Nav {
+      position: sticky;
+      top: 0;
+      margin: 0; /* Add margin: 0 to remove gaps */
+    }
+    .Nav ul {
+      list-style: none;
+      display: flex;
+      font-weight: bold;
+      padding: 10px 0;
+      background-color: transparent;
+      width: 100%;
+      align-items: center;
+      border: 1px solid black;
+      box-shadow: 0px 0px 10px black;
+      margin: 0; /* Add margin: 0 to remove gaps */
+      backdrop-filter:blur(5px);
+    }
+    .Nav ul li {
+      padding: 0 10px;
+      font-size: 11px;
+    }
+    .Nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+  .msg1{
+    font-size:9px;
+    color:white;
+    margin-left:10px;
+    margin-top:50px;
+  }
+  
+  
+.cn{
+  border-radius:20px;
+  width:70px;
+  background-color: yellow;
+  border:1px solid black;
+  font-size:8px;
+  height:25px;
+  font-weight:bold;
+  margin-left:145px;
+}
+  .msg10{
+      animation:side 1s ease;
+  }
+  @keyframes side {
+      0%{
+          margin-left:0;
+          opacity:0;
+      }
+      100%{
+          margin-left:20px;
+          opacity:1;
+      }
+      
+  }  
+    
+  .msg100{
+      animation:sideup 1.5s ease;
+      
+  }
+    
+   
+  @keyframes sideup {
+      0%{
+          margin-left:0;
+          opacity:0;
+      }
+      100%{
+          margin-left:30px;
+          opacity:1;
+      }}
+  .hrg {
+    animation: width 1s ease;
+}
+
+ @keyframes width {
+     0%{
+         width:0;
+     }
+     100%{
+         width:100%;
+     }
+ }
+    
+  .hrgg {
+    animation: width 1s ease;
+}
+ 
+.number{
+    border:none;
+    border-bottom:2px solid white;
+    margin-bottom:15px; 
+    height:32px;
+    width:220px;
+    outline:none;
+    box-shadow:none;
+    color:white;
+    background-color:transparent;
+    
+}
+.name{
+    border:none;
+    margin-bottom:15px;
+    width:220px;
+    height:32px;
+    outline:none;
+    box-shadow:none;
+    border-bottom:2px solid white;
+    background-color:transparent;
+    margin-left:28px;
+    color:white;
+    font-weight:bold;
+}
+   .textbox{
+       border:none;
+       width:210px;
+       color:white;
+       background-color:transparent;
+       border-bottom:2px solid white;
+       border-left:2px solid white;
+       outline:none;
+       box-shadow:none;
+       
+       
+   }
+ .textbox::placeholder{
+     color:#f5f5f5;
+     margin-left:5px;
+ }  
+.name::placeholder{
+    color:#f5f5f5;
+    font-weight:bold;
+}
+.number::placeholder{
+    color:#f5f5f5;
+    font-weight:bold;
+    
+}
+label{
+    color:white;
+    font-weight:bold;
+    margin-left:20px;
+    margin-right:10px;
+}
+.stw{
+    border-radius:20px;
+  width:70px;
+  background-color: yellow;
+  border:1px solid black;
+  font-size:5px;
+  height:25px;
+  font-weight:bold;
+  margin-left:145px;
+    color:black;
+}  
+    
+.abt{
+    animation:width 1s ease;
+}   
+
+.homeli:hover{
+    color:yellow;
+    animation:upping 1s ease;
+}
+
+    .abtli:hover{
+    color:yellow;
+    animation:upping 1s ease;
+}
+    
+    .reviewli:hover{
+    color:yellow;
+    animation:upping 1s ease;
+}
+    .cnctli:hover{
+    color:yellow;
+    animation:upping 1s ease;
+}
+   .smli:hover{
+    color:yellow;
+    animation:upping 1s ease;
+}
+    
+    @keyframes upping{
+        0%{
+            ;
+        }
+        100%{
+            ;
+        }
+    }
+    
+.parent{
+  background-color:#111111;
+  white-space:nowrap;
+  overflow-x:auto;
+  overflow-y:auto;
+  box-shadow:0px 0px 10px black;
+}   
+
+    
+   .child1{
+   background-color:#111111;
+   margin:20px;
+   width:250px;
+   height:100px;
+   display:inline-block;
+     overflow:auto;
+     border:1px solid #f5f5f5;
+     
+   
+ }   
+    
+   .child2{
+   background-color:#111111;
+   margin:20px;
+   width:250px;
+   height:100px;
+   display:inline-block;
+     overflow:auto;
+     border:1px solid #f5f5f5;
+ }   
+    
+   .child3{
+   background-color:#111111;
+   margin:20px;
+   width:250px;
+   height:100px;
+   display:inline-block;
+     overflow:auto;
+     border:1px solid #f5f5f5
+ }   
+    
+   .child4{
+   background-color:#111111;
+   margin:20px;
+   width:250px;
+   height:100px;
+   display:inline-block;
+     overflow:auto;
+     border:1px solid #f5f5f5
+ }   
+    
+   .child5{
+   background-color:#111111;
+   margin:20px;
+   width:250px;
+   height:100px;
+   display:inline-block;
+     overflow:auto;
+     border:1px solid #f5f5f5
+ }   
+ 
+.clogo1{
+  width:20px;
+  height:20px;
+  background-color:green;
+  border-radius:10px;
+  margin-left:10px;
+  margin-top:10px;
+  text-align:center;
+  color:white;
+  
+  
+}
+  
+  
+  
+    
+ .cp{
+   margin-left:10px;
+   color:white;
+   font-weight:bold;
+   word-wrap:break-word;
+ }   
+  .clogo2{
+  width:20px;
+  height:20px;
+  background-color:salmon;
+  border-radius:10px;
+  margin-left:10px;
+  margin-top:10px;
+  text-align:center;
+  color:white;
+  
+}
+     
+  .clogo3{
+  width:20px;
+  height:20px;
+  background-color:violet;
+  border-radius:10px;
+  margin-left:10px;
+  margin-top:10px;
+  text-align:center;
+  color:white;
+  
+}
+  
+     
+  .clogo4{
+  width:20px;
+  height:20px;
+  background-color:red;
+  border-radius:10px;
+  margin-left:10px;
+  margin-top:10px;
+  text-align:center;
+  color:white;
+  
+}
+  
+     
+  .clogo5{
+  width:20px;
+  height:20px;
+  background-color:orange;
+  border-radius:10px;
+  margin-left:10px;
+  margin-top:10px;
+  text-align:center;
+  color:white;
+  
+}
+  
+  .star{
+    margin-left:130px;
+    margin-top:10px;
+  }
+  
+  @keyframes scale{
+    0%{
+      scale:1;
+    }
+    100%{
+      scale:1.1;
+    }
+  }
+  
+.child1:hover{
+  animation:scale 0.5s ease;
+}
+.child2:hover{
+  animation:scale 0.5s ease;
+}  
+  .child3:hover{
+  animation:scale 0.5s ease;
+}
+  .child4:hover{
+  animation:scale 0.5s ease;
+}
+  .child5:hover{
+  animation:scale 0.5s ease;
+}
+ .space{
+   position:relative;
+  
+ } 
+  .gradient-text {
+  background: linear-gradient(to right, yellow, #f5f5f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+  .logo {
+  background: linear-gradient(to right, yellow, #f5f5f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.wel {
+  background: linear-gradient(to right, #ff8c00, #ffd700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-animation 5s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background: linear-gradient(to right, #ff8c00, #ffd700);
+     -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  20% {
+    background: linear-gradient(to right, #ffa07a, #ffff00);
+     -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  40% {
+    background: linear-gradient(to right, #ffd700, #ff9900);
+     -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  60% {
+    background: linear-gradient(to right, #ffff00, #ffcc00);
+     -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  80% {
+    background: linear-gradient(to right, #ffcc00, #ffa500);
+     -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  100% {
+    background: linear-gradient(to right, #ff8c00, #ffd700);
+     -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+}
+.abtus:hover{
+  animation:gradient-animation 5s linear infinite;
+  
+}
+.Loc:hover{
+  animation:gradient-animation 5s linear infinite;
+  
+}
+.contus:hover{
+  animation:gradient-animation 5s linear infinite;
+  
+}
+  .raview:hover{
+    animation:gradient-animation 5s linear infinite;
+  
+  }
+  .instagram {
+  background: linear-gradient(to right, #405DE6, #E1306C, #FCAF45);
+  
+
+}
+
+
+
+  
+  
+  </style>
+</head>
+<body>
+  <div class="Nav">
+    <ul>
+        <li><a href="#top" class="logo"><span style="color:yellow;font-weight:bold;font-family:Arial, sans serif;">K</span>ynexify</a></li>
+      <li><a href="#top" class="homeli">Home</a></li>             
+      <li><a href="#abt" class="abtli">About</a></li>
+      <li><a href="#hrggg" class="reviewli">Review</a> </li>                    
+      <li><a href="#hrgg" onclick="alert('If You Want to Contact Us For Electric Service Try Calling In +91 9748895871')" class="cnctli">Contact</a></li>
+      <li><a href="#socialm" class="smli">Social Acc</a></li>
+    </ul>
+   
+    
+  </div>
+    <br>
+    <div class="msg10"style="color:white;margin-left:20px;font-size:22px;font-weight:bold;"><span class="wel" style="color:yellow;font-weight:bold;margin-left:10px;margin-top:30px;font-size:25px;">Welcome</span> To <br><span style="color:yellow;font-size:20px;margin-left:10px;"></span> <span class="gradient-text" style=";font-size:25px;margin-left:0px;">Kynexify</span></div>
+  
+    <p  class="msg100" style="color:white;margin-left:30px;font-weight:bold;font-size:10px;">Connect With Us For Better Service Than Others.</p>
+    <br>
+    <a href="#hrgg"><button class="cn" style="font-size:100x;">Contact Now</button></a>
+ 
+    <hr id="abt" class="hrg">
+    <br>
+    <strong>  <h1  style="color:yellow;font-size:20px;margin-left:10px;text-align:center;font-weight:bold;text-decoration:underline;text-style-color:orange;text-underline-offset:5px;text-decoration-color:white;" class="abtus">About Us</h1><</strong>
+    <p style="color:white;font-weight:bold;font-size:5px;text-align:center">We Are Providing Installment, Repairing, Maintenaince, Home-Wiring, Industrial-Wiring, Labour-Contract Meterial-Suply etc With Expert Team. Excellent Service And Available Anytime. Feel Free To Call Or Message Anytime!
+    </p>
+    <br>
+    
+      <h1 style="color:yellow;font-size:20px;margin-left:10px;text-align:center;text-decoration:underline;text-underline-offset:5px;font-weight:bold;text-decoration-color:white;" class="Loc">Location</h1>
+    <p style="color:white;font-weight:bold;font-size:5px;text-align:center">53, MC Ghosh Line Howrah, Kadam Tala, West Bengal 711101.
+    </p>
+    <hr class="hrgg" id="hrgg">
+  
+  <!-- Rest of your content here -->
+        <br>
+        <strong>  <h1  style="color:yellow;font-size:20px;margin-left:10px;text-align:center;font-weight:bold;text-decoration:underline;text-style-color:orange;text-underline-offset:5px;text-decoration-color:white;" class="contus" >Contact Us</h1><</strong>
+
+        <br>
+        <div class="formc">
+            <form>
+                <label for="number" style="color:white;">P-Number </label>
+                <input class="number" id="number" type="tel" placeholder="Type Your Phone Number..">
+                <br>
+                <label for="name" style="color:white">Name</label>
+                <input class="name" id="name" type="text" placeholder="Type Your Name Here...">
+                <br>
+                <label style="color:white;display:inline-block;vertical-align:top;margin-left:20px;" for="textbox">Description</label>
+                <textarea class="textbox" id="textbox" rows="10" placeholder="Type What Electric Service You Want And Where..."></textarea>
+            </form>
+            <br>
+            <button class="stw" id="sendbtn" onclick="sendwhatsapp()" style="font-size:10px;">Submit</button>
+        </div>
+          <br>
+           <hr class="abt" id="hrggg" >
+          <br>
+           <strong>  <h1  style="color:yellow;font-size:20px;margin-left:10px;text-align:center;font-weight:bold;text-decoration:underline;text-style-color:orange;text-underline-offset:5px;text-decoration-color:white;" class="raview">Review</h1><</strong>
+
+          <br>
+          <div class="parent">
+            <div class="child1"><div class="clogo1">M</div>   <span class="star">⭐⭐⭐⭐⭐</span><p class="cp">Nice Service. I Recommend It </p></div>
+            <div class="child2"><div class="clogo2">A</div>   <span class="star">⭐⭐⭐⭐⭐</span><p class="cp">I really Like the work. Worth Try this</p></div >
+            <div class="child3"><div class="clogo3">S</div>   <span class="star">⭐⭐⭐⭐⭐</span> <p class="cp">Good Electric Service. Expert team and better than others</p></div>
+            <div class="child4"><div class="clogo4">C</div>   <span class="star">⭐⭐⭐⭐⭐</span><p class="cp">The work is done professionally. You can call them for electric work</p></div >
+            <div class="child5"><div class="clogo5">P</div>   <span class="star">⭐⭐⭐⭐⭐</span><p class="cp">Nicely done Work. Good </p></div>
+          </div>
+             <br>
+             <hr id="#socialm">
+             <br>
+             <strong>  <h1  style="color:yellow;font-size:20px;margin-left:10px;text-align:center;font-weight:bold;text-decoration:underline;text-style-color:orange;text-underline-offset:5px;text-decoration-color:white;" class="raview" >Social Media </h1><</strong>
+               <br>
+               <a><button class="facebook"  style="color:white;font-weight:bold;outline:none;border:1px solid white;width:90px;height:25px;border-radius:10px;background-color:#279cf5; margin-left:45px;gap:10px;margin-top:200x;">Facebook</button></a>
+               <a> <button class="instagram" style="color:white;font-weight:bold;outline:none;border:1px solid white;width:90px;height:25px;border-radius:10px;margin-left:10px;margin-top:20px;">Instagram</button></a>
+               <a><button class="youtube" style="color:white;font-weight:bold;outline:none;border:1px solid white;width:90px;height:25px;border-radius:10px;background-color:#FF0000;margin-left:10px;margin-top:20px;">Youtube</button></a>
+               <br>
+               <br>
+               <hr>
+               
+               
+               
+             
+             
+             
+             
+             
+    
+<script>
+  function sendwhatsapp() {
+    var phonenumber = "+919748895871"; // Corrected number format
+    var name = document.getElementById("name").value.trim(); // Get value and trim whitespace
+    var number = document.getElementById("number").value.trim(); // Get value and trim whitespace
+    var message = document.getElementById("textbox").value.trim(); // Get value and trim whitespace
+
+    // --- Input Validation ---
+    if (name === "") {
+        alert("You must write something in the Name input box!");
+        return; // Stop the function if validation fails
+    }
+
+    if (number === "") {
+        alert("You must write something in the Number input box!");
+        return; // Stop the function if validation fails
+    }
+
+    if (message === "") {
+        alert("You must write something in the Message Description box!");
+        return; // Stop the function if validation fails
+    }
+    // --- End Input Validation ---
+
+    // Correctly concatenated URL string
+    var url = "https://wa.me/" + phonenumber + "?text=" 
+    + "*Name :* " + name + "%0a"
+    + "*Number :* " + number + "%0a"
+    + "*Message:* " + message + "%0a";
+    
+    window.open(url, '_blank');
+}
+       
+</script>  
+   
+</body>
+  
+</html>
